@@ -1,0 +1,953 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Helvetica";
+    background: #000000;
+}
+
+#menu {
+    width: 900px;
+    height: 125px;
+    margin: 0px auto;
+    background: #134D92;
+    color: white;
+}
+
+#menu h1 {
+    height: 28px;
+    display: block;
+    float: 0px auto;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#nav {
+    list-style: none;
+    padding-left: 90px;
+    padding-top: 9px;
+    display: block;
+    float: left;
+    width: 900px;
+    height: 130px;
+}
+
+#nav li {
+    float: left;
+    margin-left: 50px;
+}
+
+#nav a {
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+ul#nav a.ativa{
+    border-bottom: 3px solid #e5ff00;
+ }
+
+.billie {
+    width: 900px;
+    height: auto;
+    margin: 0px auto;
+    background-color: #d4ebd4;
+
+}
+
+.todo {
+    width: 850px;
+    height: 600px;
+    margin: 0px auto;
+}
+
+    .todo h1 {
+        padding-bottom: 35px;
+        padding-top: 0px;
+        font-size: 30px;
+        text-align: center;
+        color: #05214bf1;
+    }
+
+.adele {
+    width: 440px;
+    height: auto;
+    float: left;
+    margin: 20px;
+    margin-top: 15px;
+}
+
+.chappell {
+    margin: 10px;
+    width: 320px;
+    height: 460px;
+    float: right;
+    margin-right: 30px;
+}
+
+.roan {
+    float: left;
+    height: 470px;
+    }
+
+    .roan p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .roan h1{
+        width: 130px;
+        float: right;
+        margin-right: 100px;
+    }
+
+.footer {
+    margin-top: 900px;
+    width: 900px;
+    height: 65px;
+    background: #134D92;
+    float: center;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+    padding-top: 8px;
+    text-align: center;
+    margin-left: 200px;
+    width: 500px;
+    float: left;
+}
+
+.footer a {
+    display: block;
+    float: right;
+    margin-right: 15px;
+    width: 50px;
+}
+
+/*Sobre*/   
+.titulo_3{
+    width: 900px;
+    height: 110px;
+    background-color: #ccdde7;
+}
+
+    .titulo_3 h1{
+        font-size: 26px;
+        color: #000b1af1;
+        text-align: center;
+    }
+
+.Miley_Cyrus {
+    width: 900px;
+    height: 400px;  
+    background-color: #94aef8;
+}
+
+.Miley_Cyrus h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #05214bf1;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.Miley_Cyrus p {
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+    float: left;
+    width: 400px;
+    padding-left: 30px;
+}
+
+
+.Miley_Cyrus h2 {
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-right: 30px;
+}
+
+.Luisa {
+    width: 900px;
+    height: 420px;
+    background-color: #14348a;
+}
+
+.Luisa h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #97bdf5f1;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 50px;
+
+}
+
+.Luisa p {
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+    float: right;
+    width: 500px;
+    color: #ccc;
+    padding-right: 30px;
+}
+
+.Luisa h2 {
+    width: 180px;
+    height: auto;
+    float: left;
+    padding-left: 30px;
+}
+
+.Girl_in_red {
+    width: 900px;
+    height: 400px;
+    background-color: #94aef8;
+}
+
+.Girl_in_red h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #05214bf1;
+    padding-left: 40px;
+    padding-top: 50px;
+
+}
+
+.Girl_in_red p {
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+    float: left;
+    width: 540px;
+    padding-left: 30px;
+}
+
+.Girl_in_red h2 {
+    width: 260px;
+    height: auto;
+    float: right;
+    padding-right: 30px;
+}
+
+.Carol_bianzin {
+    width: 900px;
+    height: 340px;
+    background-color: #14348a;
+}
+
+.Carol_bianzin h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px;
+
+}
+
+.Carol_bianzin p {
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: justify;
+    float: right;
+    width: 500px;
+    color: #ccc;
+    padding-right: 30px;
+}
+
+.Carol_bianzin h2 {
+    width: 280px;
+    height: auto;
+    float: left;
+    padding-left: 30px;
+}
+
+
+/*destaques*/
+.A {
+    width: 900px;
+    height: 700px;
+    
+}
+
+.titulo {
+    width: 765px;
+    padding: 10px;
+    float: left;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    background-color: #14348a;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+    
+    .titulo h1{
+        font-size: 28px;
+        text-align: center;
+        color: #fafacc;
+    }
+    
+    .titulo p{
+    font-size: 18px;
+    color: #ccc;
+    width: 680px;  
+    margin-left: 15px;
+    margin-top: 15px; 
+    }
+.marta {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 55px;
+    float: left;
+}
+
+.marta h2 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px; 
+    box-shadow: 0PX 0PX 12PX GREY;
+}
+
+.marta h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.marta p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.formiga {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc9c9;
+    border-radius: 12px;
+    margin-right: 55px;
+    float: right;
+}
+
+.formiga h2 {
+    width: 300px;
+    height: auto;
+    float: center;
+    margin-left: 30px;
+    margin-top: 30px; 
+    box-shadow: 0PX 0PX 14PX #8f8d8d;
+}
+
+.formiga h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.formiga p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+
+.B {
+    width: 900px;
+    height: 470px;
+}
+
+.debinha {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 55px;
+    float: left;
+}
+
+.debinha h2 {
+    width: 300px;
+    height: auto;
+    float: center;
+    margin-left: 30px;
+    margin-top: 30px; 
+    box-shadow: 0PX 0PX 12PX #8f8d8d;
+}
+
+.debinha h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.debinha p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.cristiane {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    float: right;
+    margin-right: 55px;
+}
+
+.cristiane h2 {
+    width: 300px;
+    height: auto;
+    float: center;
+    margin-left: 30px;
+    margin-top: 30px; 
+    box-shadow: 0PX 0PX 12PX GREY;
+}
+
+.cristiane h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.cristiane p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.C {
+    width: 900px;
+    height: 480px;
+}
+
+.andressa {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 55px;
+    float: left;
+}
+
+.andressa h2 {
+    width: 300px;
+    height: auto;
+    float: center;
+    margin-left: 30px;
+    margin-top: 30px; 
+    box-shadow: 0PX 0PX 12PX GREY;
+}
+
+.andressa h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.andressa p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.tamires {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    float: right;
+    margin-right: 55px;
+}
+
+.tamires h2 {
+    width: 300px;
+    height: auto;
+    float: center;
+    box-shadow: 0PX 0PX 12PX GREY;
+    margin-left: 30px;
+    margin-top: 30px; 
+}
+
+.tamires h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.tamires p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.D {
+    width: 900px;
+    height: 440px;
+}
+
+.bia {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 55px;
+    float: left;
+}
+
+.bia h2 {
+    width: 300px;
+    height: auto;
+    float: center;
+    margin-left: 30px;
+    box-shadow: 0PX 0PX 12PX GREY;
+    margin-top: 30px; 
+}
+
+.bia h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.bia p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.geyse {
+    width: 360px;
+    height: auto;
+    background-color: #14348a;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    float: right;
+    margin-right: 55px;
+}
+
+.geyse h2 {
+    width: 300px;
+    box-shadow: 0PX 0PX 12PX GREY;
+    margin-left: 30px;
+    margin-top: 30px; 
+}
+
+.geyse h1 {
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: #a6c5f3f1;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.geyse p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+    float: left;
+    width: 300px;
+    color: #ccc;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+/*Desafios:*/
+/* Definindo a estrutura da linha do tempo */
+.billie_elish {
+    background-image: url(img/paris.jpg);
+    width: 900px;
+    height: 1220px;
+    margin: 0px auto;
+    background-color: #d4ebd4;
+
+}
+
+.linha-do-tempo {
+    width: 900px;
+    height: 1220px;
+    margin: 0px auto;
+
+}
+
+.titulo_2{
+    width: 682px;
+    padding: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background-color: #f2f2f29f;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .titulo_2 h1{
+        font-size: 28px;
+        text-align: center;
+        color: #040b31;
+    }
+
+    .titulo_2 p{
+        font-size: 18px;
+        color: #0e0202;
+        width: 680px;  
+        margin-left: 15px;
+        margin-top: 15px; 
+    }
+
+.evento_grupo {
+    width: 320px;
+    padding: 10px;
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    background-color: #f2f2f29f;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.evento_semifinal {
+    width: 320px;
+    padding: 10px;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+    background-color: #f2f2f29f;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.evento_quartas {
+    width: 320px;
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    background-color: #f2f2f2da;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.evento_final {
+    width: 320px;
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    background-color: #f2f2f29f;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.evento_quartas h1, .evento_final h1, .evento_semifinal h1, .evento_grupo h1 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.evento p {
+    font-size: 14px;
+    text-align: justify;
+    color: #201172;
+    padding: 10px;
+}
+
+.linha {
+    width: 3px;
+    background-color: #231769;
+    height: 90px; /* Altura entre cada evento */
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+}
+
+.linha:before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #1f1361;
+    border-radius: 50%;
+}
+
+/*Medalhas:*/
+
+.Anavitoria {
+    width: 900px;
+    height: 700px;
+    margin: 0px auto;
+    background-color: #d4ebd4;
+}
+    .texto {
+        width: 850px;
+        height: 300px;
+        padding: 10px;  
+    }
+        .texto h1{
+            padding-bottom: 5px;
+            font-size: 24px;
+            color: #021225f1;
+            padding-left: 30px;
+            margin-top: 15px;
+            margin-left: 55px;
+            width: 450px;
+        }
+
+        .texto p{
+            font-size: 16px;
+            text-align: justify;
+            color: #0e0202;
+            float: left;
+            width: 560px;  
+            margin-left: 70px;
+            margin-top: 15px; 
+            
+        }
+        .texto h2{
+            width: 170px;
+            filter: drop-shadow(0px 0px 12px rgb(63, 63, 63));
+            float: right;
+            margin-right: 10px;
+        }
+
+
+    .tabela {  
+        width: 700px;
+        margin: 0px auto;
+      }
+      
+      .tabela table {
+        width: 700px;
+        border: 1px solid #4CAF50;
+        border-radius: 12px;
+      }
+      
+      .tabela td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #b0cab0;
+        border-radius: 4px;
+      }
+      
+      .tabela tr:nth-child(even) {
+        background-color: #b5bcf7;
+      }
+      
+      .tabela tr:hover {
+        background-color: #ebf8b2;
+      }
+      
+      .tabela td[colspan="4"] {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .tabela tr:first-child td {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      .tabela td {
+        color: #333;
+      }
+      
+      .tabela td:first-child {
+        font-weight: bold;
+      }
+      
+      .tabela td:nth-child(2) {
+        text-transform: capitalize;
+      }
+      
+      .tabela td:nth-child(3) {
+        text-align: center;
+      }
+      
+
+/*contato:*/
+
+#section_c {
+    background-image:url('img/bola.jpg');
+    width: 900px;
+    margin: 0px auto;
+    height: 720px;
+    padding-top: 40px;
+}
+
+.contato {
+    background-color: rgba(20, 212, 13, 0.233);
+    width: 400px;
+    height: 620px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 250px;
+}
+
+.contato h1 {
+    color: #c7f890; 
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato label {
+    font-size: 18px;
+    color: #d6d0ee;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.contato input[name="nomei"],
+.contato input[name="email"] {
+    width: 295px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.contato select {
+    width: 320px;
+    padding: 10px;
+    border: 1px solid #d6d0ee;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.contato textarea {
+    width: 290px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 14px;
+    resize: none;
+}
+
+
+.botao input[type="reset"] {
+    background-color: #0000cd;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.botao input[type="submit"] {
+    background-color: #0000cd;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+
+/*RESPOVIVIDADE Ipad  e ipad mini*/
+@media screen and (min-width:768px) and (max-width:1024px){
+    body, div{}
+    #footer { margin-left:0px;}		
+  }	
+  /*RESPONSIVIDADE ipad air	*/
+  @media screen and (min-width:820px) and (max-width:1190px){
+    body, div{}
+  #footer { margin-left:9px;}
+  }
+  /*RESPONSIVIDADE ipad pro	*/
+  @media screen and (min-width:1024px) and (max-width:1280px){
+    body, div{}
+  }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Contato - Fale conosco</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato conosco e deixe seu comentário">
+    <meta name="keywords" content="email, futebol, olimpiada, nota">
+    <meta name="author" content="Thamires M. Bonezo">
+    <link rel="stylesheet" type="text/css" href="estilO.css">
+    <link rel="icon" type="image/jpg" href="img/camisa.png">
+    <script type="text/javascript">
+      function validar() {
+          var vnomei = form1.nomei.value;
+          var vemail = form1.email.value;
+          var vnota = form1.nota.value;
+    
+    if (vnomei == "") {
+              alert("Preencha o campo com o nome");
+              form1.nomei.focus();
+              return false;
+          }
+    
+    if (vnomei.length < 5) {
+              alert("Digite o nome completo");
+              form1.nomei.focus();
+              return false;
+          }
+    
+    if (vemail == "") {
+              alert("Preencha o campo com o email");
+              form1.email.focus();
+              return false;
+          }
+    
+     if (vemail == "@") {
+              alert("Preencha o campo com o email correto");
+              form1.email.focus();
+              return false;
+          }
+    
+    if (vnota == "") {
+              alert("Preencha o campo com a nota");
+              form1.nota.focus();
+              return false;
+          }
+      }
+  </script>
+</head>
+<body>
+  <div id="menu">
+    <h1><img src="img/seleçao.png" width="100px"></h1>
+    <ul id="nav">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="Destaques.html">Destaques</a></li>
+          <li><a href="Desafio.html">Desafio</a></li>
+          <li><a href="Medalhas.html">Medalhas</a></li>
+          <li><a href="contato.html" class="ativa">Contato</a></li>
+      </ul>
+  </div> 
+          <div id="section_c">
+            <div class ="contato">
+              <h1> Fale conosco!</h1>
+                <form name="form1" action="#" method="post" onsubmit="return validar()">
+                <label>Nome:<input name="nomei" type="text "  id="text1" placeholder="CAMPO OBRIGATÓRIO! Preencha aqui o seu nome!" autofocus /></label>
+                <label>E-mail:<input name="email" type="email"   id="text2"  placeholder="CAMPO OBRIGATÓRIO! Preencha aqui o seu email!" autofocus /></label>
+                <label>Nota para o site:<select name="nota" ><option value="">Selecione</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                  <option>7</option>
+                                  <option>8</option>
+                                  <option>9</option>
+                                  <option>10</option>
+                              </select></label>
+                <label>Comentário:<textarea id="textarea" name="textarea"  placeholder="Deixe aqui seu comentário."></textarea></label>
+                <div class="botao">
+                  <input type="reset"  value="Limpar">
+                  <input type="submit" value="Enviar">
+                </div>
+              </form>
+          </div>
+       </div>	
+      
+       <div class="footer">
+        <p>Thamires M. Bonezo 2024 - &copy; Todos os direitos reservados</p>
+        <p> Trabalho acadêmico sem fins lucrativos</p>
+        <a href="#"><img src="img/sobe1.png" width="30"></a>
+    </div>
+</body>
+</html>
